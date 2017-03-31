@@ -1,0 +1,51 @@
+body {
+  background-color: #222;
+}
+.circle {
+  cursor: pointer;
+  position: absolute;
+}
+.container {
+  width: 300px;
+}
+.grow {
+  height: 150px;
+  width: 150px;
+}
+.bg-green {
+  border-radius: 100% 0 0 0;
+}
+.bg-green:hover, .green-hover {
+  background-color: #9EEBCF;
+}
+.bg-red {
+  border-radius: 0 100% 0 0;
+}
+.bg-red:hover, .red-hover {
+  background-color: #FF725C;
+}
+.bg-yellow {
+  border-radius: 0 0 100% 0;
+}
+.bg-yellow:hover, .yellow-hover {
+  background-color: #FBF1A9;
+}
+.bg-blue {
+  border-radius: 0 0 0 100%;
+}
+.bg-blue:hover, .blue-hover {
+  background-color: #96CCFF;
+}
+.black-circle {
+  cursor: default;
+  position: absolute;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: #222;
+  z-index: 1000;
+  border-radius: 50%;
+  left: 100px;
+  bottom: 100px;
+  border: solid 2px black;
+}
